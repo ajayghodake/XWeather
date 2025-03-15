@@ -16,3 +16,17 @@
   color: black;
   font-size: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .searchBar input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .searchBar button {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+}
