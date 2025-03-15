@@ -1,0 +1,21 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin: 45px;
+}
+
+.card{
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 40px;
+    width: 12rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-size: 24px;
+}
