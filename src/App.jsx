@@ -53,7 +53,7 @@ function App() {
       </div>
 
       {isLoading ? (
-        <p id="loading">Loading...</p>
+        <p id="loading">Loading data...</p>
       ) : cityData.temp !== "" ? (
         <div className="card_container">
           <Card
